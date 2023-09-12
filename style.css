@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+span,a{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.inset{
+    max-width: 950px;
+    background-color: white;
+    font-size: 18px;
+    margin: auto;
+}
+.top{
+    background-color: darkcyan;
+    padding: 20px 0;
+}
+.top, .form, .lines, .in, .box7, .whitebox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1 ,.box2 ,.box3, .box4, .box5, .box6, .box8, .birga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.link, .box1, .box2, .box3, .box4, .qism1, .box9{
+    padding: 20px;
+}
+.toptext, .whitebox{
+    margin: auto;
+}
+.href{
+    text-decoration: none;
+    color: black;
+}
+.href, .line, .white{
+    margin-right: 18px;
+}
+.link ,.center, .hams, .orta, .squares{
+    text-align: center;
+}
+.title{
+    max-width: 300px;
+    font-size: 45px;
+}
+.btn{
+    border-radius: 0 20px 20px 0;
+    border: none;
+    padding: 10px 15px;
+}
+.btn, .box2, .button, .box10, .endtexts{
+    color: white;
+}
+.title, .text ,.box2, .grey, .bold, .matn, .in, .btn2, .h3, .ham, .whitebox, .box7, .box8, .box9, .squares, .bigtext1{
+    margin-bottom: 25px;
+}
+.oq, .qora, .picbox, .textbox, .part{
+    width: 47%;
+}
+.line{
+    max-width: 100px;
+    height: 2px;
+}
+.line, .box2, .all, .btn, .button, .box10, .endtexts{
+    background-color: black;
+}
+.line:hover{
+    background-color: orange;
+}
+.box2{
+    background-image: url(img/IMAGE\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 490px;
+}
+.textbox{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.textbox, .white{
+    margin-left: 20px;
+}
+.box3, .box4{
+    background-color: pink;
+}
+.box3, .box4, .box5, .box6{
+    margin: 40px 50px;
+}
+.imgbox2{
+    transform: translateY(50px);
+}
+.ic{
+    border-radius: 50%;
+}
+.btn2, .ic{
+    background-color: white;
+}
+.btn2, .button{
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.box5, .box6{
+    background-color: aquamarine;
+}
+.h3, .apple{
+    font-size: 28px;
+    font-weight: bold;
+}
+.grey, .silver{
+    color: gray;
+}
+.qism1{
+    background-color: lightgray;
+    width: 32%;
+}
+.black{
+    font-size: 10px;
+}
+.bolder{
+    font-size: 35px;
+    max-width: 300px;
+}
+.box9{
+    background-color: orange;
+}
+.box9, .box10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box10{
+    border-bottom: 3px solid grey;
+}
+.li, .box10{
+    padding: 15px;
+}
+.links, .bigtext{
+    width: 23%;
+}
+.li, .ategi{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:910px){
+    .picbox, .textbox, .imgbox2, .qora, .oq{
+        width: 100%;
+    }
+    .box2{
+        background-image: none;
+    }
+    .box2, .box3, .box4{
+        row-gap: 20px;
+    }
+}
+@media(max-width:600px){
+    .toptext{
+        width: 100%;
+    }
+    .inset, .all{
+        padding: 0;
+    }
+    .top, .box8{
+        row-gap: 10px;
+    }
+    .links, .bigtext, .qism1{
+        width: 49%;
+    }
+    .box3, .box4, .box5, .box6{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .part{
+        margin-top: 30px;
+    }
+}
+@media(max-width:450px){
+    .qism1, .bigtext, .links{
+        width: 100%;
+    }
+    .box10{
+        row-gap: 30px;
+    }
+    .squares{
+        display: none;
+    }
+}
